@@ -24,7 +24,7 @@ function SearchBar() {
       </div>
        <img src={Logo} alt="hh" className='logo-img' />
     <div className="main_search">
-    <input type="text" className='searchbox-main' placeholder='search for cars'/>
+    <input type="text" className='searchbox-main' placeholder='Search for cars'/>
     <button className='btn-searchz'>Search</button>
     </div>
     <div className="mini_search">

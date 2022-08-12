@@ -1,4 +1,5 @@
 import React from 'react'
+import { Outlet, Link } from "react-router-dom";
 import './navbar.css'
 
 function Navbar() {
@@ -19,13 +20,15 @@ function Navbar() {
   </div>
   
   <div class="nav-links">
-    <a>Sign-up</a>
-    <a >Buy-cars</a>
-    <a >About</a>
-    <a>Contact-us</a>
+  <Link to="/signup"><a>Sign-up</a></Link>
+  <Link to="/"><a>About</a></Link>
+  <Link to="/"><a>Contact-us</a></Link>
   </div>
 </div>
+<Outlet />
+
 </div>
+
   )
 }
 
