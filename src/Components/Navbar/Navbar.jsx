@@ -1,5 +1,6 @@
 import React from 'react'
 import { Outlet, Link } from "react-router-dom";
+import SearchBar from '../Search/SearchBar';
 import './navbar.css'
 
 function Navbar() {
@@ -21,8 +22,8 @@ function Navbar() {
   
   <div class="nav-links">
   <Link to="/signup"><a>Sign-up</a></Link>
-  <Link to="/"><a>About</a></Link>
-  <Link to="/"><a>Contact-us</a></Link>
+  <Link to="/about"><a>About</a></Link>
+  <Link to="/contacts"><a>Contact-us</a></Link>
   </div>
 </div>
 <Outlet />

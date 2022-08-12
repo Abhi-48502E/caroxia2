@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 .main-login{
     position: absolute;
-    top: 200px;
-    left: 500px;
+    top: 160px;
+    background-color: black;
+    width: 1500px;
 }
 
 .wrapper{
@@ -10,6 +11,8 @@
   padding: 2rem 0 1rem 0;
   margin: 50px auto;
   background: #fff;
+  position: relative;
+  left: -100px;
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
